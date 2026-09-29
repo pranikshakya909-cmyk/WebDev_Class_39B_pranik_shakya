@@ -1,0 +1,174 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header h2 {
+    margin: 5px 0 25px;
+    font-weight: normal;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+/* Main content */
+body > h2,
+body > p,
+body > ol,
+body > ul,
+body > table,
+body > figure,
+body > iframe {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+/* Section headings */
+body > h2 {
+    color: #172554;
+    margin-top: 35px;
+}
+
+/* Introduction */
+#introduction {
+    text-align: left;
+    font-weight: bold;
+}
+
+#introduction + p,
+#introduction + p + p {
+    text-align: justify;
+}
+
+/* Image */
+figure {
+    text-align: center;
+    margin-top: 30px;
+}
+
+figure img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 20px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Experience */
+#experience + ol li:nth-child(odd) {
+    font-weight: 300;
+}
+
+#experience + ol li:nth-child(even) {
+    font-weight: bold;
+}
+
+/* Skills table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #172554;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    padding: 13px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf0f8;
+}
+
+tr:hover {
+    background-color: #dbeafe;
+}
+
+/* Projects */
+#projects + ul {
+    background-color: white;
+    padding: 25px 45px;
+    border-radius: 15px;
+}
+
+#projects + ul li {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+/* YouTube video */
+#video + p {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    width: 700px;
+    max-width: 90%;
+    height: 395px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Horizontal lines */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 35px 5%;
+}
+
+/* Footer message */
+body > p:last-of-type {
+    text-align: center;
+    padding: 25px;
+    color: #172554;
+}
